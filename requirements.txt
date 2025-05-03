@@ -1,0 +1,6 @@
+google_api_python_client==2.146.0
+protobuf==6.30.2
+schedule==1.2.2
+python-dotenv=1.0.0
+requests==2.31.0
+google-auth==2.22.0
