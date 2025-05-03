@@ -9,7 +9,7 @@ import os
 load_dotenv()
 
 email_address = os.getenv('EMAIL_ADDRESS')
-email_password = os.getev('EMAIL_PASSWORD')
+email_password = os.getenv('EMAIL_PASSWORD')
 
 def send_email(to_email, bcc_emails, subject, body):
     msg = MIMEMultipart()
